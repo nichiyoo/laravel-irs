@@ -1,14 +1,14 @@
 @extends('layouts.auth')
 
 @section('content')
-  <div class="mb-4 text-center">
+  <div class="mb-4">
     <a href="{{ route('dashboard') }}" class="navbar-brand navbar-brand-autodark">
       <x-logo />
     </a>
   </div>
 
-  <h2 class="mb-3 text-center h3">
-    {{ __('Login to your account') }}
+  <h2 class="mb-3 h2">
+    {{ __('Single Sign On') }}
   </h2>
 
   <form method="POST" action="{{ route('login') }}" autocomplete="off">

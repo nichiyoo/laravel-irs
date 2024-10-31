@@ -1,13 +1,13 @@
 @extends('layouts.auth')
 
 @section('content')
-  <div class="mb-4 text-center">
+  <div class="mb-4">
     <a href="{{ route('dashboard') }}" class="navbar-brand navbar-brand-autodark">
       <x-logo />
     </a>
   </div>
 
-  <h2 class="mb-3 text-center h3">
+  <h2 class="mb-3 h2">
     {{ __('Create new account') }}
   </h2>
 
