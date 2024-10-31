@@ -1,3 +1,5 @@
-@import url('https://fonts.bunny.net/css?family=Nunito');
-@import 'variables';
-@import 'bootstrap/scss/bootstrap';
+:root {
+  --tblr-font-sans-serif: 'Inter', sans-serif;
+  --tblr-border-radius: 5px;
+  --tblr-modal-border-radius: 5px;
+}
