@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="mb-4 text-center">
-    <a href="{{ route('home') }}" class="navbar-brand navbar-brand-autodark">
+    <a href="{{ route('dashboard') }}" class="navbar-brand navbar-brand-autodark">
       <x-logo />
     </a>
   </div>

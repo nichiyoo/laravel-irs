@@ -10,5 +10,5 @@
     </path>
   </svg>
 
-  <span class="fs-3 fw-bold">Laravel IRS</span>
+  <span class="fs-3 fw-bold">{{ config('app.name', 'Laravel') }}</span>
 </div>
